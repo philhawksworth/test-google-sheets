@@ -4,7 +4,7 @@
   publish = "dist"
   NODE_ENV = "8.9.0"
 
-[[redirects]]
-  from = "/"
-  to = "/docs"
-  status = 302
+[template.environment]
+  CLIENT_EMAIL='Yor google sheets API generated email'
+  PRIVATE_KEY='Your Google Sheets API prvate key'
+  SHEET_ID='The tab number and sheet ID of your Google Sheet'
